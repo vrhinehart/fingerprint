@@ -1,13 +1,15 @@
 # Fingerprint
-Arduino-based fingerprint sensor that opens an Olin College dorm door.
+Arduino-based fingerprint sensor that opens an Olin College dorm door (may work on other doors too).
 
 Parts required:
 - Arduino Nano or Uno
 - Breadboard, Pushbutton switch, LED
 - High torque hobby servo (I used MG996R)
 - Zip Ties
+- Rubber band
 - Material for servo arm and servo mount
 - 5V power supply (I used cut off USB cable)
+- Duct tape :)
 
 Steps:
 - Assemble the breadboard according to the schematic.
@@ -16,7 +18,7 @@ Steps:
 - Connect a rubber band to the end slot and stretch it just shy of back-driving the servo (when the servo has power).
 - Wire everything to the door and test.
 
-Tips
+Tips:
 - If the fingerprint sensor is not detected over serial, the debug LED on the Arduino will flash.
 - Disconnect the Arduino from the fingerprint sensor when flashing, as the USB and sensor use the same UART.
 
