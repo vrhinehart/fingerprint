@@ -18,9 +18,12 @@ Steps:
 - Connect a rubber band to the end slot and stretch it just shy of back-driving the servo (when the servo has power).
 - Wire everything to the door and test.
 
+Note: The rubber band is optional. The servo can open the door without it, but I find it's a bit slower and a bit more "strained" without. Up to you.
+
 Tips:
 - If the fingerprint sensor is not detected over serial, the debug LED on the Arduino will flash.
 - Disconnect the Arduino from the fingerprint sensor when flashing, as the USB and sensor use the same UART.
+- If the sensor LED turns cyan, it's waiting for a fingerprint. This means it was triggered to enter the verification mode, but the finger was removed. Scan a finger to exit this mode.
 
 Interface:
 - By default, device is in fingerprint reading mode. Place your finger on the sensor to authenticate.
