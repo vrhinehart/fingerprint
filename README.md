@@ -35,6 +35,8 @@ Tips:
 - Disconnect the Arduino from the fingerprint sensor when flashing, as the USB and sensor use the same UART.
 - If the sensor LED turns cyan, it's waiting for a fingerprint. This means it was triggered to enter the verification mode, but the finger was removed. Scan a finger to exit this mode.
 - You may want to cover the debug LEDs on the Arduino with tape. Otherwise they will shine in the night and possibly be confused with the "unlocked" indicator.
+- The sensor supports 80 fingerprint slots, but my code only exposes 10. This can be easily changed. 
+- If your finger doesn't scan reliably, try recording it to multiple slots in different positions. This ain't TouchID, it's fairly sensitive to the exact position of your finger.
 
 Interface:
 - By default, device is in fingerprint reading mode. Place your finger on the sensor to authenticate.
