@@ -3,6 +3,8 @@ Arduino-based fingerprint sensor that opens an Olin College dorm door (may work 
 
 This repository contains the general directions, all code and electronics, and some of the mechanical parts you will need. However, you will find that you need to design your own mounts for the servo and the fingerprint sensor.
 
+<img src="https://github.com/vrhinehart/fingerprint/blob/main/images/exterior.JPG" height="400"> <img src="https://github.com/vrhinehart/fingerprint/blob/main/images/interior.JPG" height="400">
+
 Parts required:
 - Arduino Nano or Uno
 - ID809 fingerprint sensor [DFRobot](https://www.dfrobot.com/product-2051.html) [Amazon](https://www.amazon.com/DFROBOT-Capacitive-Fingerprint-Scanner-Sensor/dp/B08JBRKB9T)
