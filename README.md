@@ -12,6 +12,7 @@ Parts required:
 - High torque hobby servo (I used MG996R)
 - Material for servo arm and servo mount (wood, metal, plastic)
 - 5V power supply (I used cut off USB cable)
+- String or Paracord
 - Zip Ties
 - Double sided tape (I used 3M VHB)
 - Duct tape :)
